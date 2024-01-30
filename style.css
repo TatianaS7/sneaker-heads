@@ -1,16 +1,16 @@
 /* Write Your CSS Below 
 Colors: 
-- rgb(243, 183, 106)
+- rgb(243, 183, 106) Light Orange Color
 - yellow
-- rgb(241, 117, 0)
+- rgb(241, 117, 0) Darker Orange color
 - red
-- #f3b76a
-- #f17500
-- #0d6e00
-- #6d00fb
-- #dbff39
-- #74c9f1
-- #fb4040
+- #f3b76a Paler Orange Color
+- #f17500 Darker Orange Color
+- #0d6e00 Forest Green
+- #6d00fb Purple
+- #dbff39 Lime Green
+- #74c9f1 Sky Blue Color
+- #fb4040 Salmonish Color
 
 Sizes: 
 - 100%
@@ -27,3 +27,68 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+
+body {
+    background-image: url("https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg");
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+h1 {
+    text-align: center;
+    margin: 30px;
+    text-decoration: underline #6d00fb;
+    color: #6d00fb;
+    text-shadow: white 2px 0 5px;
+    padding: 10px 0 15px 0;
+    background-image: linear-gradient(#74c9f1, #fb4040);
+    display: flex;
+    justify-content: center;
+    border-radius: .5rem;
+
+}
+
+#flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+#jordans-1, #jordans-2 {
+    height: 300px;
+    width: 500px;
+}
+
+#jordans-1 {
+    box-shadow: blue 5px 0 5px;
+}
+
+#jordans-1-desc{
+    width: 480px;
+    background-color: #74c9f1;
+    padding: 10px;
+    border-radius: .5rem;
+    border: #fb4040 solid;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+#jordans-2 {
+    box-shadow: red -5px 0 5px;
+}
+
+#jordans-2-desc {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 480px;
+    background-color: red;
+    padding: 10px;
+    border-radius: .5rem;
+    border: #0d6e00 solid;
+}
